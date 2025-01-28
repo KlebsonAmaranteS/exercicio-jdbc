@@ -12,9 +12,9 @@ public class Conexao {
     private static Connection conn;
 
     private Conexao() throws SQLException {
-        String url = "jdbc:postgresql://autorack.proxy.rlwy.net:25763/railway?sslmode=require";
-        String username = "postgres";
-        String password = "JfTPXFiTovmjSHUKOrMAZJNXrPlxUsfn";
+        String url = "";
+        String username = "";
+        String password = "";
         conn = DriverManager.getConnection(url, username, password);
     }
 
